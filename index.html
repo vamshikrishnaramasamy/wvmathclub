@@ -83,152 +83,142 @@
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="section section-about" id="about">
-      <div class="split-layout">
-        <div class="split-left">
-          <span class="section-tag" data-reveal>01 / About</span>
-          <h2 class="section-title" data-reveal>What is WMT?</h2>
-          <p class="section-body" data-reveal>The Wolverine Math Tournament is a fun, MATHCOUNTS-style math competition for elementary and middle school students, organized by Math Club at Westview High School. Join us for a day of mathematical challenges, friendly competition, and exciting prizes!</p>
-          <div class="division-row" data-reveal>
-            <div class="div-pill div-elem">
-              <span class="div-grade">3rd–5th</span>
-              <span class="div-name">Elementary</span>
-            </div>
-            <div class="div-pill div-mid">
-              <span class="div-grade">6th–8th</span>
-              <span class="div-name">Middle School</span>
-            </div>
+    <!-- COMPETITION HUB -->
+    <section class="section section-hub" id="about">
+      <div class="hub-container" data-reveal>
+        <div class="hub-header">
+          <span class="section-tag">Competition Hub</span>
+          <h2 class="section-title">Everything you<br>need to know</h2>
+          
+          <div class="hub-tabs-nav">
+            <button class="hub-tab-btn active" data-tab="overview">Overview</button>
+            <button class="hub-tab-btn" data-tab="rounds">Rounds</button>
+            <button class="hub-tab-btn" data-tab="timeline">Schedule</button>
+            <button class="hub-tab-btn" data-tab="logistics">Logistics</button>
           </div>
         </div>
-        <div class="split-right">
-          <div class="detail-grid" data-reveal>
-            <div class="detail-block">
-              <span class="detail-num">01</span>
-              <h3>What &amp; When</h3>
-              <ul>
-                <li><strong>Date:</strong> Saturday, May 17, 2026</li>
-                <li><strong>Time:</strong> 9:30 AM – 3:30 PM</li>
-                <li><strong>Style:</strong> MATHCOUNTS-style competition</li>
-                <li><strong>Grades:</strong> 3rd-8th grade students</li>
-              </ul>
+
+        <div class="hub-content glass-card">
+          <!-- Overview Tab -->
+          <div class="hub-pane active" id="pane-overview">
+            <div class="pane-grid">
+              <div class="pane-text">
+                <h3>The Wolverine Spirit</h3>
+                <p>The Wolverine Math Tournament (WMT) is more than just a test; it's a celebration of curiosity. Organized by the Westview Math Club, we invite 3rd–8th graders to experience a day of collaborative problem-solving and high-stakes buzzer rounds.</p>
+                <div class="division-row">
+                  <div class="div-pill div-elem">
+                    <span class="div-grade">Grades 3–5</span>
+                    <span class="div-name">Elementary</span>
+                  </div>
+                  <div class="div-pill div-mid">
+                    <span class="div-grade">Grades 6–8</span>
+                    <span class="div-name">Middle School</span>
+                  </div>
+                </div>
+              </div>
+              <div class="pane-stats">
+                <div class="hub-stat">
+                  <span class="hub-stat-val">250+</span>
+                  <span class="hub-stat-label">Participants</span>
+                </div>
+                <div class="hub-stat">
+                  <span class="hub-stat-val">$1k+</span>
+                  <span class="hub-stat-label">Prizes Pool</span>
+                </div>
+              </div>
             </div>
-            <div class="detail-block">
-              <span class="detail-num">02</span>
-              <h3>Location &amp; Cost</h3>
-              <ul>
-                <li><strong>Where:</strong> Westview High School G Building</li>
-                <li><strong>Cost:</strong> $15 per student</li>
-                <li><strong>Includes:</strong> All rounds + lunch</li>
-                <li><strong>Payment:</strong> Cash or check at check-in</li>
-              </ul>
+          </div>
+
+          <!-- Rounds Tab -->
+          <div class="hub-pane" id="pane-rounds">
+            <div class="rounds-grid">
+              <div class="round-card">
+                <div class="round-icon">Ⅰ</div>
+                <h4>Individual Round</h4>
+                <p>A 45-minute sprint focusing on speed and accuracy. No calculators, just pure logic.</p>
+              </div>
+              <div class="round-card">
+                <div class="round-icon">Ⅱ</div>
+                <h4>Team Round</h4>
+                <p>Work with 4-5 teammates to solve complex puzzles that require collective brainstorming.</p>
+              </div>
+              <div class="round-card round-card-accent">
+                <div class="round-icon">Ⅲ</div>
+                <h4>Buzzer Round</h4>
+                <p>The top performers go head-to-head in a live, fast-paced elimination bracket.</p>
+              </div>
             </div>
-            <div class="detail-block">
-              <span class="detail-num">03</span>
-              <h3>Competition Rounds</h3>
-              <ul>
-                <li><strong>Individual:</strong> Test personal skills</li>
-                <li><strong>Team:</strong> Collaborate with teammates</li>
-                <li><strong>Buzzer:</strong> Fast elimination bracket</li>
-                <li><strong>Prizes:</strong> Awards for top performers!</li>
-              </ul>
+          </div>
+
+          <!-- Timeline Tab -->
+          <div class="hub-pane" id="pane-timeline">
+            <div class="timeline-compact">
+              <div class="time-item"><span>09:30</span><p>Check-in & Registration</p></div>
+              <div class="time-item"><span>10:30</span><p>Individual Round</p></div>
+              <div class="time-item"><span>11:45</span><p>Team Round & Lunch</p></div>
+              <div class="time-item"><span>01:45</span><p>Buzzer Round Finale</p></div>
+              <div class="time-item highlight"><span>03:00</span><p>Awards Ceremony</p></div>
             </div>
-            <div class="detail-block">
-              <span class="detail-num">04</span>
-              <h3>Good to Know</h3>
-              <ul>
-                <li><strong>Lunch:</strong> Pizza, snacks, drinks provided</li>
-                <li><strong>Bring:</strong> Pencils/pens (paper provided)</li>
-                <li><strong>Questions:</strong> Written by experienced students</li>
-                <li><strong>Sponsor:</strong> Jane Street Capital</li>
-              </ul>
+          </div>
+
+          <!-- Logistics Tab -->
+          <div class="hub-pane" id="pane-logistics">
+            <div class="logistics-grid">
+              <div class="log-info">
+                <div class="loc-row"><span class="loc-icon">◎</span><p>Westview G Building</p></div>
+                <div class="loc-row"><span class="loc-icon">△</span><p>$15 Registration Fee</p></div>
+                <div class="loc-row"><span class="loc-icon">◷</span><p>Lunch Provided (Pizza)</p></div>
+                <a href="#hero" class="btn-ghost">View Campus Map</a>
+              </div>
+              <div class="log-map-mini">
+                <img src="assets/campus-map.png" alt="Map">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SCHEDULE -->
-    <section class="section section-schedule" id="schedule">
-      <div class="schedule-layout">
-        <div class="schedule-header">
-          <span class="section-tag" data-reveal>02 / Schedule</span>
-          <h2 class="section-title" data-reveal>Event<br>Timeline</h2>
-          <p class="section-body" data-reveal>Saturday, May 17, 2026<br>9:30 AM – 3:30 PM</p>
+    <!-- SPONSORSHIP -->
+    <section class="section section-sponsors" id="sponsors">
+      <div class="hub-container" data-reveal>
+        <span class="section-tag">Partnerships</span>
+        <h2 class="section-title">Support the next<br>generation of math</h2>
+        
+        <div class="sponsors-grid">
+          <div class="tier-card tier-silver glass-card">
+            <span class="tier-label">Silver</span>
+            <h3>$250</h3>
+            <div class="tier-benefits">
+              Logo on website<br>Social media shoutout<br>Resume book access
+            </div>
+            <a href="mailto:wvmathclub@gmail.com" class="btn-ghost">Select Tier</a>
+          </div>
+
+          <div class="tier-card tier-platinum glass-card glow-accent">
+            <span class="tier-label">Platinum</span>
+            <h3>$1,000+</h3>
+            <div class="tier-benefits">
+              <strong>Everything in Gold +</strong><br>Opening ceremony speech<br>Custom challenge round<br>Premier branding
+            </div>
+            <a href="mailto:wvmathclub@gmail.com" class="btn-primary">Become Lead Partner</a>
+          </div>
+
+          <div class="tier-card tier-gold glass-card">
+            <span class="tier-label">Gold</span>
+            <h3>$500</h3>
+            <div class="tier-benefits">
+              <strong>Everything in Silver +</strong><br>Logo on tournament shirts<br>Recruitment booth<br>Award sponsorship
+            </div>
+            <a href="mailto:wvmathclub@gmail.com" class="btn-ghost">Select Tier</a>
+          </div>
         </div>
-        <div class="schedule-track" data-reveal>
-          <div class="track-line" aria-hidden="true"></div>
-          <div class="track-item">
-            <div class="track-time">9:30</div>
-            <div class="track-dot"></div>
-            <div class="track-card">
-              <h3>Registration</h3>
-              <p>Check-in, pay fees, bring pencils</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">10:15</div>
-            <div class="track-dot"></div>
-            <div class="track-card">
-              <h3>Welcome Announcement</h3>
-              <p>Opening ceremony, enter classrooms</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">10:30</div>
-            <div class="track-dot"></div>
-            <div class="track-card">
-              <h3>Individual Round</h3>
-              <p>45-minute individual test</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">11:30</div>
-            <div class="track-dot"></div>
-            <div class="track-card track-card-break">
-              <h3>Break</h3>
-              <p>Snacks and drinks provided</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">11:45</div>
-            <div class="track-dot"></div>
-            <div class="track-card">
-              <h3>Team Round</h3>
-              <p>Collaborative problem-solving</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">12:30</div>
-            <div class="track-dot"></div>
-            <div class="track-card track-card-break">
-              <h3>Lunch</h3>
-              <p>Pizza, chips, and water provided</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">1:45</div>
-            <div class="track-dot"></div>
-            <div class="track-card">
-              <h3>Buzzer Round</h3>
-              <p>Fast-paced mental math elimination bracket</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">2:45</div>
-            <div class="track-dot"></div>
-            <div class="track-card track-card-break">
-              <h3>Break</h3>
-              <p>Preparation for awards</p>
-            </div>
-          </div>
-          <div class="track-item">
-            <div class="track-time">3:00</div>
-            <div class="track-dot"></div>
-            <div class="track-card track-card-highlight">
-              <h3>Awards Ceremony &amp; Cleanup</h3>
-              <p>Celebrate achievements and wrap up</p>
-            </div>
+
+        <div class="sponsors-cta glow-blue">
+          <h2>Ready to partner?</h2>
+          <p class="section-body" style="margin: 0 auto 2.5rem;">Join Jane Street Capital and other industry leaders in supporting mathematical excellence in our community.</p>
+          <div class="hero-actions">
+            <img src="assets/jane-street.avif" alt="Jane Street" width="120" style="border-radius: 8px; filter: brightness(1.2);">
           </div>
         </div>
       </div>
@@ -236,32 +226,18 @@
 
     <!-- REGISTRATION -->
     <section class="section section-register" id="registration">
-      <div class="register-center">
-        <span class="section-tag" data-reveal>03 / Registration</span>
-        <h2 class="big-heading" data-reveal>Ready<br>to compete?</h2>
-        <div class="register-stats" data-reveal>
-          <div class="stat">
-            <span class="stat-val">$15</span>
-            <span class="stat-label">per student</span>
-          </div>
+      <div class="register-center glass-card glow-accent" style="padding: 5rem; max-width: 900px; border-radius: var(--radius-lg);">
+        <span class="section-tag">2026 Tournament</span>
+        <h2 class="big-heading">Registration<br>is open.</h2>
+        <div class="register-stats">
+          <div class="stat"><span class="stat-val">$15</span><span class="stat-label">Entry Fee</span></div>
           <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-val">3–8</span>
-            <span class="stat-label">grade levels</span>
-          </div>
+          <div class="stat"><span class="stat-val">3–8</span><span class="stat-label">Grades</span></div>
           <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-val">3</span>
-            <span class="stat-label">competition rounds</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-val">∞</span>
-            <span class="stat-label">fun guaranteed</span>
-          </div>
+          <div class="stat"><span class="stat-val">May 17</span><span class="stat-label">Event Date</span></div>
         </div>
-        <p class="register-note" data-reveal>Sign up for the Wolverine Math Tournament 2026 and join hundreds of students from around San Diego for a day of mathematical challenges. Cost includes all rounds plus lunch.</p>
-        <a href="https://tinyurl.com/wvmt2025" target="_blank" rel="noopener" class="btn-primary btn-xl" id="main-register" data-reveal>Register Here →</a>
+        <p class="register-note">Secure your spot in the San Diego region's most anticipated youth math event. Lunch and materials included.</p>
+        <a href="https://tinyurl.com/wvmt2025" target="_blank" rel="noopener" class="btn-primary btn-xl">Register Now →</a>
       </div>
     </section>
 
